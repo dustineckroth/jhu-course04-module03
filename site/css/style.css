@@ -3,17 +3,66 @@
 	font-family: Arvo;
 }
 
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar {
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  font-size: 2em;
+}
+
+.navbar-brand a { /* Restaurant name */
+  color: #557c3e;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #334455;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.container > div {
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0;
+}
+
 p {
 	padding: 0px;
 	margin: 0px;
-}
-
-h1 {
-	text-align: center;
-}
-
-section {
-	padding-right: 10px;
 }
 
 .row {
@@ -22,10 +71,10 @@ section {
 
 .box {
   border: 1px solid black;
-  background-color: purple;
+  background-color: #334455;
   width: 100%;
-  height: 200px;
-  margin-right: 10px;
+  height: 1000px;
+  margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
   color: white;
@@ -42,7 +91,7 @@ section {
 }
 
 .content {
-	padding: 40px 5px 5px 5px;
+	margin: 40px 5px 5px 5px;
 }
 
 #title-chicken {
@@ -56,6 +105,23 @@ section {
 #title-sushi {
 	background-color: red;
 }
+
+.navbar-toggle {
+	margin-top: -35px;
+}
+
+/*.navbar-default {
+	background-color: #334455;
+	border: 0px;
+}
+
+#collapsable-nav {
+	background-color: #3344AA;
+}
+
+#nav-list a {
+	color: white;
+}*/
 
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6 {
